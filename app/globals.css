@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-darkest: 13 19 33; /* #0d1321 */
+  --color-darker: 29 45 68; /* #1d2d44 */
+  --color-medium: 62 92 118; /* #3e5c76 */
+  --color-lighter: 116 140 171; /* #748cab */
+  --color-lightest: 240 235 216; /* #f0ebd8 */
+}
+
+body {
+  font-family: var(--font-inter);
+}
+
+.font-inter {
+  font-family: var(--font-inter);
+}
+
+.font-poppins {
+  font-family: var(--font-poppins);
+}
+
+.font-roboto-mono {
+  font-family: var(--font-roboto-mono);
+}
+
+.font-dm-sans {
+  font-family: var(--font-dm-sans);
+}
+
+.font-lora {
+  font-family: var(--font-lora);
+}
+
+.font-beth-ellen {
+  font-family: var(--font-beth-ellen);
+}
+
+@layer base {
+  body {
+    @apply bg-darkest text-lightest;
+  }
+}
